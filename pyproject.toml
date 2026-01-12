@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "print64"
+version = "0.1.0"
+description = "Automatically converts all print() output to Base64"
+readme = "README.md"
+authors = [
+    { name = "The Arquitect", email = "samu.plantaarvores@gmail.com" }
+]
+license = { text = "MIT" }
+keywords = ["base64", "print", "output", "encoding"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+]
+requires-python = ">=3.8"
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/Samucahub/print64"
+Repository = "https://github.com/Samucahub/print64"
+Issues = "https://github.com/Samucahub/print64/issues"
+
+[tool.setuptools]
+packages = ["print64"]
+package-dir = { "" = "src" }
+
+[tool.setuptools.package-data]
+print64 = ["py.typed"]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0", "twine>=4.0", "black>=23.0"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
