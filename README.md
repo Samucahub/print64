@@ -40,3 +40,59 @@ Output:
 ```bash
 Hello World!
 ```
+
+### Example 3 with `Variables` and `Conditions`:
+
+```python
+import print64
+
+x = 0
+while x < 10:
+      print(x)
+      x += 1
+```
+
+Output:
+
+```bash
+MA==
+MQ==
+Mg==
+Mw==
+NA==
+NQ==
+Ng==
+Nw==
+OA==
+OQ==
+```
+
+### Example 4 with `Variables`/`Conditions` and `Disable`:
+
+```python
+import print64
+
+x = 0
+while x < 10:
+      if x % 2 == 0:
+          print64.disable()
+          print(x)
+      else:
+          print(x)
+      x += 1
+```
+
+Output:
+
+```bash
+0
+MQ==
+2
+Mw==
+4
+NQ==
+6
+Nw==
+8
+OQ==
+```
