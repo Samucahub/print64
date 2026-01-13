@@ -67,7 +67,7 @@ OA==
 OQ==
 ```
 
-### Example 4 with `Variables`/`Conditions` and `Disable`:
+### Example 4 with `Variables`/`Conditions` and `Disable`/`Enable`:
 
 ```python
 import print64
@@ -77,6 +77,7 @@ while x < 10:
       if x % 2 == 0:
           print64.disable()
           print(x)
+          print64.enable()
       else:
           print(x)
       x += 1
