@@ -3,6 +3,10 @@
 A Python library that automatically converts all output from `print()` to Base64.
 For people who enjoy a good challenge.
 
+Have you ever thought: "Hmm, oh, how boring the output of a `print()` statement in understandable human language is!"
+
+Well, now the solution has arrived. Now `print()` statements are no longer uninteresting; now they give you a challenge: the challenge of deciphering the output.
+
 ## Installation
 
 ```bash
