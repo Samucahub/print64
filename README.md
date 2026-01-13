@@ -7,3 +7,21 @@ For people who enjoy a good challenge.
 
 ```bash
 pip install print64
+```
+---
+
+## How To Use
+
+### Example1:
+
+```python
+import print64
+
+print("Hello World!")
+```
+
+Output:
+
+```bash
+SGVsbG8gV29ybGQh
+```
