@@ -12,7 +12,7 @@ pip install print64
 
 ## How To Use
 
-### Example1:
+### Example 1:
 
 ```python
 import print64
@@ -24,4 +24,19 @@ Output:
 
 ```bash
 SGVsbG8gV29ybGQh
+```
+
+### Example 2 with `Disable`:
+
+```python
+import print64
+
+print64.disable()
+print("Hello World!")
+```
+
+Output:
+
+```bash
+Hello World!
 ```
